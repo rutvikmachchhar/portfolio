@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-class{
+    font-family: 'Baloo Da 2', cursive;
+}
+html{
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    padding: 2.5rem;
+}
+.contact-desc a{
+    padding: 0px 10px;
+    color: blue;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.959);
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+.left{
+    display: flex;
+    height: 5rem;
+    width: 8rem;
+    font-size: 2.5rem;
+    align-items: center;
+    margin: 0 1rem;
+    padding: 1rem 1rem;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+}
+
+
+.right{
+    display: flex;
+    height: 5rem;
+    width:8rem;
+    font-size: 2rem;
+    align-items: center;
+    margin: 0 1rem; 
+    transition: all 0.2s linear;
+}
+.fa {
+    padding: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 20px;
+    color: black;
+  }
+.fa:hover
+{
+     opacity: 0.7;
+     color: black;
+     background-color: rgb(2, 70, 197);
+     transform: translateY(-5px);
+}
+  .right a:hover{
+      color: blue;
+    }
+  .content{
+      margin-top: 20rem;
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-flow: column;   
+  }
+  .heading{    
+    width: 20rem;
+    height: 4rem;
+    border: 1px solid rgb(194, 190, 190);
+    padding: 7px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    margin-right: 60%;  
+  }
+  
+  .here_iam{
+      display: inline-block;
+      margin-right: 8rem;
+      font-size: 4rem;
+      padding: 0.9rem;
+  }
+  .description{
+      font-size: 2rem;
+      width: 65%;
+      font-weight: 100;
+      color: rgba(0, 0, 0, 0.616); 
+  }
+  .button{
+      border: 1px solid blue;
+      border-radius: 25px;
+      width: 15rem;
+      height: 4.5rem;
+      font-size: 2rem;
+      padding:0.5rem 1.5rem;
+      cursor: pointer;
+  }
+  .button:hover{
+      background-color: rgb(2, 70, 197);
+      color: white;
+  }
+  .project-section
+{
+    background-color:rgba(241, 241, 241, 0.808) ;
+    margin-top: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: center;
+    padding: 3rem;
+    gap: 3rem;
+}
+.mywork-projects{
+font-size: 3rem;
+display: block;
+text-align: center;
+}
+.desc{
+font-size: 2rem;
+width:50%;
+margin: auto;
+color: rgba(0, 0, 0, 0.616); 
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+display: inline-flex;
+flex-direction: column;
+justify-content:flex-start;
+min-width: 300px;
+min-height: 250px;
+max-width: 500px;
+margin: 10px;
+color: black;
+background-color: white;
+box-shadow: 0px 4px 20px rgb(0,0,0,0.25);
+transition: all 0.2s linear;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.project-title{
+    font-size: 3rem;
+    padding: 1rem;
+    text-align: center;
+}
+.project-info{
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+    margin: 10px;
+}
+.github{
+    display: flex;
+    justify-content: center;
+    padding: 2px 10px;
+    align-self: center;
+}
+.github a{
+    font-size: 1.5rem;
+    padding: 12px;
+    width: 152px;
+    height: 38px;
+    border-radius: 20px;
+    margin: 1px;
+}
+.github a:hover{
+    color: white;
+    background-color:rgb(2, 70, 197); 
+}
+.skills{
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-items: center;
+    justify-content: center; 
+    background-color: rgb(255, 255, 255);
+}
+.skills-section{
+    width: 50vw;
+    box-shadow: 0px 4px 20px rgb(0,0,0,0.25);
+}
+.skills-types{
+background-color: rgb(255, 255, 255);
+border: 2px dotted rgb(247, 247, 247);
+}
+.skill{
+    border: 2px solid #080808;
+    background-color: rgba(196, 192, 192, 0.5);
+    color: black;
+    font-weight: 500;
+    display: inline-block;
+    width: 40vw;
+    font-size: 2rem;
+    text-align: center;
+    margin: 7px 0px;
+}
+.width2
+{
+    width: 30vw
+}
+.width3
+{
+    width: 35vw
+}.width4
+{
+    width: 30vw
+}.width5
+{
+    width: 45vw
+}.width6
+{
+    width: 45vw
+}.width7
+{
+    width: 40vw
+}
+.contact-part{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgba(241, 241, 241, 0.808) ;
+
+}
+.contact-heading{
+    font-size: 3rem;
+    color: black;
+}
+.contact-desc{
+    font-size: 2rem;
+}
+.footer-cont{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.copyright{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.616); 
+
+}
+@media only screen and (max-width:600px){
+    .icons
+    {
+        display: none;
+    }
+    .here_iam{
+        font-size: 2rem;
+        margin-left: 10rem;
+        width: 90vw;
+    }
+    .heading{
+        margin-left: 10rem;
+    }
+    .contact-desc{
+        text-align: center;
+    }
+    .mywork-projects{
+        font-size: 1.5rem;
+    }
+    .desc{
+        font-size: 1.5rem;
+        width:90%;
+        margin: auto;
+        color: rgba(0, 0, 0, 0.616); 
+        
+    }
+    .description{
+        font-size: 2rem;
+        width: 80%;
+        font-weight: 100;
+        color: rgba(0, 0, 0, 0.616); 
+    }
+    .content{
+        margin-top: 10rem;}
+    .skill{
+        font-size: 1.5rem; }  
+}
+@media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {display: none;}
+    .navbar a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .navbar.responsive {position: relative;}
+    .navbar.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navbar.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
